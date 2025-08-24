@@ -1,0 +1,197 @@
+* {
+    font-family: Arial;
+}
+.options {
+    width: 40%;
+    border: 1px solid;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(96, 96, 96);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 12px;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.count {
+    background-color: rgb(41, 118, 211);
+    padding: 4px 12px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.friend-suggestions {
+    width: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 50px;
+}
+
+.friend {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 8px;
+    align-items: center;
+}
+
+.friend .traits {
+    flex: 1;
+    margin: 4px 8px;
+    margin-left: 16px;
+}
+
+.friend img {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    object-fit: cover;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.alias {
+    color: rgb(96, 96, 96);
+    font-size: 17px;
+    margin-top: 4px;
+}
+
+.popular {
+    font-family: 15px;
+    margin-top: 4px;
+    color: rgb(96, 96, 96);
+    font-weight: lighter;
+}
+
+.friend button {
+    color: white;
+    background-color: rgb(41, 118, 211);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 4px;
+}
+
+.header {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(120, 82, 178);
+    padding: 12px 0;
+    border: none;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.left {
+    width: 15%;
+    margin-right: 20px;
+    padding-left: 8px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.search {
+    flex: 1;
+    max-width: 60%;
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 16px;
+    border: none;
+    padding-left: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 10px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin: 0 8px 0 18px;
+    box-sizing: border-box;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.inbox {
+    display: inline-block;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    padding: 6px 0;
+    border-radius: 4px;
+}
+
+.all {
+    margin: 8px 12px;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+}
+
+.content {
+    margin-left: 6px;
+    line-height: 1.4;
+}
+
+.email-preview {
+    margin: 10px 14px;
+    display: flex;
+    align-items: center;
+}
+
+.preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preview .sender {
+    font-weight: bolder;
+}
+
+.preview .time {
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+}
+
+.topic {
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.message {
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+}
+
+.img {
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    object-fit: cover;
+}
