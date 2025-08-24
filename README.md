@@ -4,4 +4,4 @@
 ![Inline Block Display](Screenshots/Inline-Block-Display.png)
 ![Popular Button Styles](Screenshots/Popular-Button-Styles.png)
 ![Popular Text Styles](Screenshots/Popular-Text-Styles.png)
-![YouTube Discord Clone](Screenshots/YouTube-Discord-Clones.png)
+![YouTube Discord Clone](Screenshots/Youtube-Discord-Clones.png)
